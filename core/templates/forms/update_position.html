@@ -1,0 +1,13 @@
+{% extends 'forms/form.html' %}
+
+{% block page_title %}Update Position Details{% endblock page_title %}
+
+{% block content_title %}Update Position Details{% endblock content_title %}
+
+{% block form_title %}Update Position Details{% endblock form_title %}
+
+{% block form_url %}{% url 'update-position' position.id %}{% endblock form_url %}
+
+{% block cancel_url %}{% url 'manage-positions' %}{% endblock cancel_url %}
+
+{% block form_button %}Update{% endblock form_button %}
