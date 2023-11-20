@@ -1,0 +1,13 @@
+{% extends 'forms/form.html' %}
+
+{% block page_title %}Update Employee Details{% endblock page_title %}
+
+{% block content_title %}Update Employee Details{% endblock content_title %}
+
+{% block form_title %}Update Employee Details{% endblock form_title %}
+
+{% block form_url %}{% url 'update-employee' employee.id %}{% endblock form_url %}
+
+{% block cancel_url %}{% url 'manage-employees' %}{% endblock cancel_url %}
+
+{% block form_button %}Update{% endblock form_button %}
