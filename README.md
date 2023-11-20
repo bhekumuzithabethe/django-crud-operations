@@ -3,7 +3,7 @@
 ## Overview
 This is an employee management system, whereby a user or an admin can create, read, update and delete employee details.
 The project is built using  Django 4, HTML 5, CSS 3, and Bootstrap 5 with a Bootswatch theme.
-
+![Home page](https://github.com/bhekumuzithabethe/django-crud-operations/blob/main/core/static/home.png)
 ## Prerequisites
 
 1. [Python 3.8-3.12](https://www.python.org/)
