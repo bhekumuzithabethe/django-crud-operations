@@ -13,30 +13,32 @@ This project uses Django v4.2.4. For Django to work, you must have a correct Pyt
 ---
 
 ## Installation
-1. Create a virtual environment
+
+1. Create a virtual environment.<br>
 From the root directory, run:
 ```
 python -m venv venv
 ```
 
-1. Activate the virtual environment
-From the root directory, run:
+2. Activate the virtual environment.<br>
+From the root directory, run: <br>
 On macOS:
 ```
 source venv/bin/activate
 ```
-On Windows
+
+On Windows:
 ```
 venv\scripts\activate
 ```
 
-1. Install required dependencies
+3. Install required dependencies.<br>
 From the root directory, run:
 ```
 pip install requirements.txt
 ```
 
-1. Create an admin user to access the Django Admin interface
+4. Create an admin user to access the Django Admin interface.<br>
 From the root directory, run:
 ```
 python manage.py createsuperuser
@@ -57,4 +59,5 @@ Go to http://127.0.0.1:8000/.
 
 ## Copyright and License
 Copyright © 2023 - current year Thabethe Programming. Code released under the MIT license.
+
 
